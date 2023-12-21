@@ -1,9 +1,9 @@
 #!/bin/bash
 
 AMI=ami-03265a0778a880afb
-SG_ID=sg-087e7afb3a936fce7 #replace with your SG ID
+SG_ID=sg-0c9b26f020b3a4545 #replace with your SG ID
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "web")
-ZONE_ID=Z104317737D96UJVA7NEF
+ZONE_ID=Z02070741KHYWXX006OQ2
 DOMAIN_NAME="bhaskar75.online"
 
 for i in "${INSTANCES[@]}"
